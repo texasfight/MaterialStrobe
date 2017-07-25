@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
             final String cameraID = cameraList[0];
             final ToggleButton toggler = (ToggleButton) findViewById(R.id.toggleButton);
             final Handler strobeHandler = new Handler();
+            //TODO: Optimize code for LG Stylo and other crappy LG phones.
             final Runnable offRunner = new Runnable() {
                 @Override
                 public void run() {
@@ -94,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
             });
+            //TODO: Finish creating an expection with a full toast/snackbar
         } catch (CameraAccessException e) {
             e.printStackTrace();
         }
