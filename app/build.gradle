@@ -4,9 +4,9 @@ android {
     signingConfigs {
         config {
             keyAlias 'DarbyStrobe'
-            keyPassword 'nbanba12'
+            keyPassword 'Beastmode1'
             storeFile file('C:/Users/Irvin/Keystores/DarbyStrobe.jks')
-            storePassword 'Beastmode1'
+            storePassword 'nbanba12'
         }
     }
     compileSdkVersion 26
