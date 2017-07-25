@@ -13,17 +13,22 @@ import android.widget.TextView;
 import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
+    // Initialize progress outside of method, in order to manipulate within classes
     private int progress = 500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Basic OnCreate initialization.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Create CameraManager object as well as creating a list for camera IDs
         final CameraManager cam = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
         final String[] cameraList;
+        //Create seekbar and textView objects
         SeekBar seekBar=(SeekBar)findViewById(R.id.SeekFreq);
         final TextView progressText=(TextView)findViewById(R.id.progressText);
         progressText.setText("Light on for: " + progress + "ms");
+        // Changes Textview based on progress selected by user.
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 
             @Override
