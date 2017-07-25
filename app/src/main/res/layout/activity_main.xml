@@ -48,16 +48,4 @@
         app:layout_constraintTop_toBottomOf="@+id/SeekFreq"
         tools:text="@string/defaultFreq" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Button"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toggleButton"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/SeekFreq" />
-
 </android.support.constraint.ConstraintLayout>
