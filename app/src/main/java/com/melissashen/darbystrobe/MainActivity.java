@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         try {
+            //Fill the camera list and show the ID of the camera with flash as the first option
             cameraList = cam.getCameraIdList();
             final String cameraID = cameraList[0];
             final ToggleButton toggler = (ToggleButton) findViewById(R.id.toggleButton);
