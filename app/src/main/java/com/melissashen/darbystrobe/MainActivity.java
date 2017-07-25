@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onProgressChanged(SeekBar seekBar, int progressValue, boolean fromUser) {
-                progress = progressValue;
+                progress = (progressValue+10);
                 progressText.setText("Light on for: " + progress + "ms");
 
             }
