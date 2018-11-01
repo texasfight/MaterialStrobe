@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         SeekBar seekBar=(SeekBar)findViewById(R.id.SeekFreq);
         final TextView progressText=(TextView)findViewById(R.id.progressText);
         progressText.setText("Light on for: " + progress + "ms");
+        Input
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 
             @Override
