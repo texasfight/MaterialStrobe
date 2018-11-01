@@ -37,6 +37,11 @@
         tools:layout_editor_absoluteY="343dp" />
 
     <TextView
+        android:id="@+id/progressSet"
+        android:text="@string/helloWorld"
+        />
+
+    <TextView
         android:id="@+id/progressText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

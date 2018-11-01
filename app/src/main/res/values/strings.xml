@@ -3,4 +3,5 @@
     <string name="onKey">STROBE TIME</string>
     <string name="offKey">MAKE IT STOP</string>
     <string name="defaultFreq">Frequency of Change: 500ms</string>
+    <string name="helloWorld">This is the new frequency</string>
 </resources>
